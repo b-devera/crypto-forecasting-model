@@ -3,32 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Information</title>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel= "stylesheet" type="text/css" href="../static/main.css">
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 </head>
+
 <body>
 
-    <a href="/">Home</a>
-    <h2>Bitcoin</h2>
-    <h2>$ <span id="bitcoin"></span> </h2>
-    <h2>Ethereum</h2>
-    <h2>$ <span id="ethereum"></span> </h2>
-    <h2>Tether</h2>
-    <h2>$ <span id="tether"></span> </h2>
-    <h2>Binance Coin</h2>
-    <h2>$ <span id="binancecoin"></span> </h2>
-    <h2>Ripple</h2>
-    <h2>$ <span id="ripple"></span> </h2>
-    <h2>Cardano</h2>
-    <h2>$ <span id="cardano"></span> </h2>
-    <h2>Solana</h2>
-    <h2>$ <span id="solana"></span> </h2>
-    <h2>Polkadot</h2>
-    <h2>$ <span id="polkadot"></span> </h2>
-    <h2>Dogecoin</h2>
-    <h2>$ <span id="dogecoin"></span> </h2>
-    <h2>Dai</h2>
-    <h2>$ <span id="dai"></span> </h2>
+    <div class = "header">
+        <table>
+            <tr>
+                <td style="font-size:30px;"><a href="/" style = padding-right:20px;>Home</a></td>
+                <td style="font-size:30px;"><a href="explore" style = padding-right:20px;>Explore</a></td>
+                <td style="font-size:30px;"><a href="learn" style = padding-right:20px;>Learn</a></td>
+                <td style="font-size:30px;"><a href="aboutus">About Us</a></td>
+            </tr>
+        </table>
+        <hr color = "gray">
+    </div>
 
-    <script src="{{url_for('static', filename='app.js')}}"></script>
+    <div class = "container">
+        <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="1839" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="52" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="2010" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="5426" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="20314" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="5805" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="74" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div class="coinmarketcap-currency-widget" data-currencyid="6636" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    </div>
+
 </body>
 </html>
