@@ -1,147 +1,108 @@
-import io
 import os
-import random
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
-from flask import Flask, render_template, Response
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
+from flask import Flask, render_template
 
-from matplotlib.backends.backend_template import FigureCanvas
-
-app= Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///information.db'
-db = SQLAlchemy(app)
+app = Flask(__name__)
 
 graphUpload = os.path.dirname('static/image')
 picFolder = os.path.join('static','image')
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(20000, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Bitcoin Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/BTCGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(1500, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Ethereum Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/ETHGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(300, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("BNB Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/BNBGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
 y = np.random.randint(100, size=10)
-x.sort()
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("XRP Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/XRPGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(50, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Cardano Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/ADAGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(40, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Solana Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/SOLGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(10, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Terra Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/LUNAGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(20, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Avalanche Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/AVAXGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(30, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Dogecoin Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/DOGEGraph.png')
 plt.clf()
 
-x = np.random.randint(100, size=10)
-y = np.random.randint(100, size=10)
-x.sort()
+y = np.random.randint(10, size=10)
 y.sort()
-plt.plot(x, y, color = "green", linewidth = 2)
+plt.plot(y, color = "green", linewidth = 2)
 plt.title("Polkadot Graph")
-plt.xlabel("X - Axis")
-plt.ylabel("Y - Axis")
+plt.ylabel("Price")
 plt.grid(True)
 
 plt.savefig(graphUpload + '/image/DOTGraph.png')
@@ -168,9 +129,9 @@ def explore():
     return render_template('explore.html', BTCGraph = BTCGraph, ETHGraph = ETHGraph, BNBGraph = BNBGraph, XRPGraph = XRPGraph, ADAGraph = ADAGraph,
                            SOLGraph = SOLGraph, LUNAGraph = LUNAGraph, AVAXGraph = AVAXGraph, DOGEGraph = DOGEGraph, DOTGraph = DOTGraph)
 
-@app.route('/learn')
-def learn():
-    return render_template('learn.html')
+@app.route('/news')
+def news():
+    return render_template('news.html')
 
 @app.route('/aboutus')
 def aboutus():
