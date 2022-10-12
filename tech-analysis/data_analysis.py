@@ -9,7 +9,7 @@ def analyze(pred, val, classification=False):
     print('Error Metrics==========')
     print('Classification Metrics======')
     error_metrics(pred=pred, val=val)
-    if classification==True:
+    if classification:
         classification_metrics(pred=pred, val=val)
     
 
@@ -37,5 +37,6 @@ def classification_metrics(pred, val):
     print("Precision (Percent Chance '1' is Predicted): " + str(prec))
     print("Recall: " + str(rec))
     print("F1 Score: " + str(f))
+
 
 
