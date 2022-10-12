@@ -57,18 +57,10 @@ def create_knn_df(ticker):
     return knn_df
 
 
-def create_nn_df(ticker, knn_dir_train, knn_dir_preds):
+def create_nn_df(ticker):
     df = create_df(ticker)
     nn_df = pd.DataFrame()
-    nn_df['Date'] = df['DateTime']
-    nn_df['Transaction Volume'] = df['transaction volume']
-    nn_df['Volatility'] = df['Volatility']
-    knn_dir = knn_dir_train + knn_dir_preds
-    nn_df['Direction'] = knn_dir
     nn_df['Open'] = df['Open']
-    nn_df['High'] = df['High']
-    nn_df['Low'] = df['Low']
-    nn_df['Close'] = df['Close']
     return nn_df
 
 
