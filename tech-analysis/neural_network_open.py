@@ -1,56 +1,42 @@
-import pandas as pd
-import yfinance as yf
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-from keras.models import Sequential, load_model
-from keras.layers import LSTM, Dense, Dropout
-import data_preproc
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
+import math
 
 
 def predict(df):
-    df = df['Open'].values
-    df = df.reshape(-1, 1)
-    dataset_train = np.array(df[:int(df.shape[0]*0.8)])
-    dataset_test = np.array(df[int(df.shape[0]*0.8):])
-    scaler = MinMaxScaler(feature_range=(0,1))
-    dataset_train = scaler.fit_transform(dataset_train)
-    dataset_test = scaler.transform(dataset_test)
-    def create_dataset(df):
-        x = []
-        y = []
-        for i in range(40, df.shape[0]):
-            x.append(df[i-40:i, 0])
-            y.append(df[i, 0])
+    train_df = df.filter(['Open'])
+    data_unscaled = train_df.values
+    mmscaler = MinMaxScaler(feature_range=(0, 1))
+    np_data = mmscaler.fit_transform(data_unscaled)
+    sequence_length = 50
+    index_Open = train_df.columns.get_loc("Open")
+    train_data_len = math.ceil(np_data.shape[0] * 0.8)
+    train_data = np_data[0:train_data_len, :]
+    test_data = np_data[train_data_len - sequence_length:, :]
+    def partition_dataset(sequence_length, train_df):
+        x, y = [], []
+        data_len = train_df.shape[0]
+        for i in range(sequence_length, data_len):
+            x.append(train_df[i-sequence_length:i,:])
+            y.append(train_df[i, index_Open])
         x = np.array(x)
         y = np.array(y)
         return x, y
-    x_train, y_train = create_dataset(dataset_train)
-    x_test, y_test = create_dataset(dataset_test)
-    x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
-    x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
+    x_train, y_train = partition_dataset(sequence_length, train_data)
+    x_test, y_test = partition_dataset(sequence_length, test_data)
     model = Sequential()
-    model.add(LSTM(units=96, return_sequences=True, input_shape=(x_train.shape[1], 1)))
-    model.add(Dropout(0.2))
-    model.add(LSTM(units=96,return_sequences=True))
-    model.add(Dropout(0.2))
-    model.add(LSTM(units=96,return_sequences=True))
-    model.add(Dropout(0.2))
-    model.add(LSTM(units=96))
-    model.add(Dropout(0.2))
-    model.add(Dense(units=1))
-    x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
-    x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
-    model.compile(loss='mean_squared_error', optimizer='adam')
-    model.fit(x_train, y_train, epochs=50, batch_size=32)
-    predictions = model.predict(x_test)
-    predictions = scaler.inverse_transform(predictions)
-    y_test_scaled = scaler.inverse_transform(y_test.reshape(-1, 1))
-    fig, ax = plt.subplots(figsize=(16,8))
-    ax.set_facecolor('#000041')
-    ax.plot(y_test_scaled, color='red', label='Original price')
-    plt.plot(predictions, color='cyan', label='Predicted price')
-    plt.legend()
-    plt.show()
+    neurons = sequence_length
+    model.add(LSTM(neurons, return_sequences=True, input_shape=(x_train.shape[1], 1))) 
+    model.add(LSTM(neurons, return_sequences=False))
+    model.add(Dense(25, activation='relu'))
+    model.add(Dense(1))
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    model.fit(x_train, y_train, batch_size=16, epochs=200)
+    y_pred_scaled = model.predict(x_test)
+    y_pred = mmscaler.inverse_transform(y_pred_scaled)
+    y_test_unscaled = mmscaler.inverse_transform(y_test.reshape(-1, 1))
+    return y_pred, y_test_unscaled
 
 
