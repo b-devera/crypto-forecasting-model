@@ -137,5 +137,9 @@ def news():
 def aboutus():
     return render_template('aboutus.html')
 
+@app.route('/sentimental')
+def sentimental():
+    return render_template('sentimental.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
