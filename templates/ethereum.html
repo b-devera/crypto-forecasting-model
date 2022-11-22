@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ethereum Prediction Model</title>
+    <link rel= "stylesheet" type="text/css" href="../static/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!---<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">-->
+    <style>
+        #chart-wrapper1 {
+            width: 500px;
+            height: 600px;
+        }
+        #chart-wrapper2 {
+            width: 80%;
+        }
+        .space-buffer{
+            height: 50px;
+        }
+      </style>
+</head>
+<body>
+    <div class = "header">
+        <table>
+            <tr>
+                <td style="font-size:30px;"><a href="/" style = padding-right:20px;>Home</a></td>
+                <td style="font-size:30px;"><a href="explore" style = padding-right:20px;>Explore</a></td>
+                <td style="font-size:30px;"><a href="news" style = padding-right:20px;>News</a></td>
+                <td style="font-size:30px;"><a href="aboutus">About Us</a></td>
+            </tr>
+        </table>
+        <hr color = "gray">
+    </div>
+
+    <a href="bitcoin"><button type="button" id="btnId">Bitcoin</button></a>
+    <a href="ethereum"><button type="button" id="btnId2">Ethereum</button></a>
+    <a href="binance"><button type="button" id="btnId3">BNB</button></a>
+    <a href="doge"><button type="button" id="btnId9">Dogecoin</button></a>
+    <a href="polygon"><button type="button" id="btnId4">MATIC</button></a>
+    <a href="shiba"><button type="button" id="btnId5">SHIB</button></a>
+    <a href="litecoin"><button type="button" id="btnId6">LTC</button></a>
+    <a href="chainlink"><button type="button" id="btnId7">LINK</button></a>
+    <a href="bitcoinCash"><button type="button" id="btnId8">BCH</button></a>
+    <a href="algorand"><button type="button" id="btnId10">ALGO</button></a>
+
+    <div class="chart active">
+        <div class="row in active">
+            <div class="col in active">
+                <h3 id="changeText">ETH/USD</h3>
+                <canvas id="myChart" width="auto" height="100px"></canvas>
+            </div>
+        </div>
+
+        <div class="row space-buffer"></div>
+            <div class="row">
+                <div class="col-sx-6" id="chart-wrapper1">
+                    <h3>Twitter Analysis</h3>
+                    <h3>10-18-2022</h3>
+                    <canvas id="senChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row space-buffer"></div>
+            <div class="row">
+                <div class="col-xs-6" id="chart-wrapper2">
+                    <h3>Another Analysis</h3>
+                    <h3>All days</h3>
+                    <canvas id="senChart2"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/data/ethereumTechnical.js"></script>
+
+</body>
+</html>

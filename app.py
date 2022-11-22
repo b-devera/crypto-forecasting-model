@@ -5,111 +5,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-graphUpload = os.path.dirname('static/image')
-picFolder = os.path.join('static','image')
-
-y = np.random.randint(20000, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Bitcoin Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/BTCGraph.png')
-plt.clf()
-
-y = np.random.randint(1500, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Ethereum Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/ETHGraph.png')
-plt.clf()
-
-y = np.random.randint(300, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("BNB Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/BNBGraph.png')
-plt.clf()
-
-y = np.random.randint(100, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("XRP Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/XRPGraph.png')
-plt.clf()
-
-y = np.random.randint(50, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Cardano Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/ADAGraph.png')
-plt.clf()
-
-y = np.random.randint(40, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Solana Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/SOLGraph.png')
-plt.clf()
-
-y = np.random.randint(10, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Terra Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/LUNAGraph.png')
-plt.clf()
-
-y = np.random.randint(20, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Avalanche Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/AVAXGraph.png')
-plt.clf()
-
-y = np.random.randint(30, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Dogecoin Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/DOGEGraph.png')
-plt.clf()
-
-y = np.random.randint(10, size=10)
-y.sort()
-plt.plot(y, color = "green", linewidth = 2)
-plt.title("Polkadot Graph")
-plt.ylabel("Price")
-plt.grid(True)
-
-plt.savefig(graphUpload + '/image/DOTGraph.png')
-plt.clf()
-
-app.config['UPLOAD_FOLDER'] = picFolder
-
 @app.route('/')
 def index():
     return render_template('home.html')
@@ -137,9 +32,45 @@ def news():
 def aboutus():
     return render_template('aboutus.html')
 
-@app.route('/sentimental')
-def sentimental():
-    return render_template('sentimental.html')
+@app.route('/bitcoin')
+def bitcoin():
+    return render_template('bitcoin.html')
+
+@app.route('/ethereum')
+def ethereum():
+    return render_template('ethereum.html')
+
+@app.route('/binance')
+def binance():
+    return render_template('binance.html')
+
+@app.route('/doge')
+def doge():
+    return render_template('doge.html')
+
+@app.route('/polygon')
+def ripple():
+    return render_template('polygon.html')
+
+@app.route('/shiba')
+def cardano():
+    return render_template('shiba.html')
+
+@app.route('/litecoin')
+def solana():
+    return render_template('litecoin.html')
+
+@app.route('/chainlink')
+def terra():
+    return render_template('chainlink.html')
+
+@app.route('/bitcoinCash')
+def polkadot():
+    return render_template('bitcoinCash.html')
+
+@app.route('/algorand')
+def avalanche():
+    return render_template('algorand.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
