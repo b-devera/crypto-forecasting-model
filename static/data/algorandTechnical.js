@@ -114,7 +114,7 @@ function getDataSentimental(chart){
     .then((json) => {
         //console.log(json.data.length);
         for (var i = 0;i < json.length; i++){
-            if (json[i].date == "2022-10-18") {
+            if (json[i].date == "2022-11-22") {
                 dataSetSen.push(json[i].total_negative);
                 dataSetSen.push(json[i].total_neutral);
                 dataSetSen.push(json[i].total_positive);
