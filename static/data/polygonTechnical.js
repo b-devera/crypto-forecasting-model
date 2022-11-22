@@ -222,4 +222,4 @@ function drawHistoricalSentimental (){
             
 
 }
-drawHistoricalSentimental()
+//drawHistoricalSentimental()

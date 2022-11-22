@@ -219,7 +219,7 @@ function drawHistoricalSentimental (){
       };
     const senChart2= new Chart(ctx2, config2);
     getData(senChart2);
-            
+
 
 }
-drawHistoricalSentimental()
+//drawHistoricalSentimental()
