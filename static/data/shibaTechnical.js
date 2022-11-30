@@ -109,12 +109,12 @@ const dataSetSen = [];
 
 function getDataSentimental(chart){
 
-    fetch("../static/data/btc-sentimental.json")
+    fetch("../static/data/SHIB_sentimental.json")
     .then(response => response.json())
     .then((json) => {
         //console.log(json.data.length);
         for (var i = 0;i < json.length; i++){
-            if (json[i].date == "2022-10-18") {
+            if (json[i].date == "2022-11-21") {
                 dataSetSen.push(json[i].total_negative);
                 dataSetSen.push(json[i].total_neutral);
                 dataSetSen.push(json[i].total_positive);
@@ -163,7 +163,7 @@ function drawHistoricalSentimental (){
 
     function getData(chart){
 
-        fetch("btc-sentimental.json")
+        fetch("../static/data/SHIB_sentimental.json")
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);
@@ -222,4 +222,4 @@ function drawHistoricalSentimental (){
             
 
 }
-//drawHistoricalSentimental()
+drawHistoricalSentimental()

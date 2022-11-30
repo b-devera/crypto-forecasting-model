@@ -109,7 +109,7 @@ const dataSetSen = [];
 
 function getDataSentimental(chart){
 
-    fetch("../static/data/btc-sentimental.json")
+    fetch("../static/data/BTC_sentimental.json")
     .then(response => response.json())
     .then((json) => {
         //console.log(json.data.length);
@@ -163,7 +163,7 @@ function drawHistoricalSentimental (){
 
     function getData(chart){
 
-        fetch("btc-sentimental.json")
+        fetch("BTC_sentimental.json")
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);
@@ -222,4 +222,4 @@ function drawHistoricalSentimental (){
 
 
 }
-//drawHistoricalSentimental()
+drawHistoricalSentimental()
