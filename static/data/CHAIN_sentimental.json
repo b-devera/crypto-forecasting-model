@@ -1,399 +1,280 @@
 [
   {
-    "date": "2022-09-20",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-21",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-22",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-23",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-24",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-25",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-26",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-27",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-28",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-29",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-09-30",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-01",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-02",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-03",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-04",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-05",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
-    "date": "2022-10-06",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
-  },
-  {
     "date": "2022-10-07",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.925,
+    "total_negative": 0,
+    "total_neutral": 12,
+    "total_positive": 148
   },
   {
     "date": "2022-10-08",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.2650602409638554,
+    "total_negative": 0,
+    "total_neutral": 122,
+    "total_positive": 44
   },
   {
     "date": "2022-10-09",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1,
+    "total_negative": 0,
+    "total_neutral": 179,
+    "total_positive": 0
   },
   {
     "date": "2022-10-10",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.7069767441860465,
+    "total_negative": 94,
+    "total_neutral": 90,
+    "total_positive": 31
   },
   {
     "date": "2022-10-11",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.2975609756097561,
+    "total_negative": 144,
+    "total_neutral": 61,
+    "total_positive": 0
   },
   {
     "date": "2022-10-12",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.0777027027027026,
+    "total_negative": 7,
+    "total_neutral": 259,
+    "total_positive": 30
   },
   {
     "date": "2022-10-13",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.4014598540145986,
+    "total_negative": 65,
+    "total_neutral": 34,
+    "total_positive": 175
   },
   {
     "date": "2022-10-14",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.927007299270073,
+    "total_negative": 7,
+    "total_neutral": 6,
+    "total_positive": 261
   },
   {
     "date": "2022-10-15",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.1845238095238095,
+    "total_negative": 137,
+    "total_neutral": 31,
+    "total_positive": 0
   },
   {
     "date": "2022-10-16",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.9938650306748469,
+    "total_negative": 0,
+    "total_neutral": 1,
+    "total_positive": 162
   },
   {
     "date": "2022-10-17",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.0108695652173913,
+    "total_negative": 183,
+    "total_neutral": 0,
+    "total_positive": 1
   },
   {
     "date": "2022-10-18",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.0142857142857142,
+    "total_negative": 139,
+    "total_neutral": 0,
+    "total_positive": 1
   },
   {
     "date": "2022-10-19",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.3669064748201439,
+    "total_negative": 97,
+    "total_neutral": 33,
+    "total_positive": 9
   },
   {
     "date": "2022-10-20",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.031746031746032,
+    "total_negative": 0,
+    "total_neutral": 183,
+    "total_positive": 6
   },
   {
     "date": "2022-10-21",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.4623655913978494,
+    "total_negative": 143,
+    "total_neutral": 0,
+    "total_positive": 43
   },
   {
     "date": "2022-10-22",
     "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "total_negative": 226,
+    "total_neutral": 0,
+    "total_positive": 0
   },
   {
     "date": "2022-10-23",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.3039647577092511,
+    "total_negative": 173,
+    "total_neutral": 39,
+    "total_positive": 15
   },
   {
     "date": "2022-10-24",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.2,
+    "total_negative": 248,
+    "total_neutral": 17,
+    "total_positive": 20
   },
   {
     "date": "2022-10-25",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.6140939597315436,
+    "total_negative": 24,
+    "total_neutral": 67,
+    "total_positive": 207
   },
   {
     "date": "2022-10-26",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.0760456273764258,
+    "total_negative": 251,
+    "total_neutral": 4,
+    "total_positive": 8
   },
   {
     "date": "2022-10-27",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.9801324503311255,
+    "total_negative": 3,
+    "total_neutral": 0,
+    "total_positive": 299
   },
   {
     "date": "2022-10-28",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.6707692307692308,
+    "total_negative": 3,
+    "total_neutral": 101,
+    "total_positive": 221
   },
   {
     "date": "2022-10-29",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.2603305785123966,
+    "total_negative": 68,
+    "total_neutral": 43,
+    "total_positive": 131
   },
   {
     "date": "2022-10-30",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.201834862385321,
+    "total_negative": 0,
+    "total_neutral": 174,
+    "total_positive": 44
   },
   {
     "date": "2022-10-31",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.2927927927927928,
+    "total_negative": 159,
+    "total_neutral": 61,
+    "total_positive": 2
   },
   {
     "date": "2022-11-01",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.6535714285714285,
+    "total_negative": 6,
+    "total_neutral": 85,
+    "total_positive": 189
   },
   {
     "date": "2022-11-02",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 2,
+    "total_negative": 0,
+    "total_neutral": 0,
+    "total_positive": 302
   },
   {
     "date": "2022-11-03",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.696875,
+    "total_negative": 185,
+    "total_neutral": 47,
+    "total_positive": 88
   },
   {
     "date": "2022-11-04",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.0184696569920844,
+    "total_negative": 0,
+    "total_neutral": 372,
+    "total_positive": 7
   },
   {
     "date": "2022-11-05",
-    "average": 0,
+    "average": 0.87248322147651,
     "total_negative": 168,
     "total_neutral": 0,
     "total_positive": 130
   },
   {
     "date": "2022-11-06",
-    "average": 0,
+    "average": 0.1959459459459459,
     "total_negative": 240,
     "total_neutral": 54,
     "total_positive": 2
   },
   {
     "date": "2022-11-07",
-    "average": 0,
+    "average": 0.1591695501730103,
     "total_negative": 243,
     "total_neutral": 46,
     "total_positive": 0
   },
   {
     "date": "2022-11-08",
-    "average": 0,
+    "average": 1,
     "total_negative": 0,
     "total_neutral": 370,
     "total_positive": 0
   },
   {
     "date": "2022-11-09",
-    "average": 0,
+    "average": 0.9477911646586346,
     "total_negative": 13,
     "total_neutral": 236,
     "total_positive": 0
   },
   {
     "date": "2022-11-10",
-    "average": 0,
+    "average": 0.9285714285714286,
     "total_negative": 68,
     "total_neutral": 29,
     "total_positive": 57
   },
   {
     "date": "2022-11-11",
-    "average": 0,
+    "average": 1.8271604938271604,
     "total_negative": 11,
     "total_neutral": 6,
     "total_positive": 145
   },
   {
     "date": "2022-11-12",
-    "average": 0,
+    "average": 2,
     "total_negative": 0,
     "total_neutral": 0,
     "total_positive": 183
   },
   {
     "date": "2022-11-13",
-    "average": 0,
+    "average": 1.6037735849056605,
     "total_negative": 27,
     "total_neutral": 9,
     "total_positive": 123
   },
   {
     "date": "2022-11-14",
-    "average": 0,
+    "average": 1.5027322404371584,
     "total_negative": 1,
     "total_neutral": 89,
     "total_positive": 93
   },
   {
     "date": "2022-11-15",
-    "average": 0,
+    "average": 1.8216216216216217,
     "total_negative": 0,
     "total_neutral": 33,
     "total_positive": 152
@@ -407,315 +288,315 @@
   },
   {
     "date": "2022-11-17",
-    "average": 0,
+    "average": 1.4895833333333333,
     "total_negative": 96,
     "total_neutral": 4,
     "total_positive": 284
   },
   {
     "date": "2022-11-18",
-    "average": 0,
+    "average": 0.5936675461741425,
     "total_negative": 214,
     "total_neutral": 105,
     "total_positive": 60
   },
   {
     "date": "2022-11-19",
-    "average": 0,
+    "average": 0.2486910994764398,
     "total_negative": 333,
     "total_neutral": 3,
     "total_positive": 46
   },
   {
     "date": "2022-11-20",
-    "average": 0,
+    "average": 0.3501326259946949,
     "total_negative": 300,
     "total_neutral": 22,
     "total_positive": 55
   },
   {
     "date": "2022-11-21",
-    "average": 0,
+    "average": 0.1467391304347826,
     "total_negative": 339,
     "total_neutral": 4,
     "total_positive": 25
   },
   {
     "date": "2022-11-22",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.3604336043360434,
+    "total_negative": 3,
+    "total_neutral": 230,
+    "total_positive": 136
   },
   {
     "date": "2022-11-23",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.5706666666666669,
+    "total_negative": 65,
+    "total_neutral": 31,
+    "total_positive": 279
   },
   {
     "date": "2022-11-24",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.0634920634920637,
+    "total_negative": 31,
+    "total_neutral": 292,
+    "total_positive": 55
   },
   {
     "date": "2022-11-25",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.9575757575757576,
+    "total_negative": 10,
+    "total_neutral": 152,
+    "total_positive": 3
   },
   {
     "date": "2022-11-26",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.108974358974359,
+    "total_negative": 40,
+    "total_neutral": 59,
+    "total_positive": 57
   },
   {
     "date": "2022-11-27",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.5416666666666666,
+    "total_negative": 105,
+    "total_neutral": 0,
+    "total_positive": 39
   },
   {
     "date": "2022-11-28",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.882882882882883,
+    "total_negative": 1,
+    "total_neutral": 11,
+    "total_positive": 99
   },
   {
     "date": "2022-11-29",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 1.6902654867256637,
+    "total_negative": 1,
+    "total_neutral": 33,
+    "total_positive": 79
   },
   {
     "date": "2022-11-30",
-    "average": 0,
-    "total_negative": "",
-    "total_neutral": "",
-    "total_positive": ""
+    "average": 0.5934959349593496,
+    "total_negative": 63,
+    "total_neutral": 47,
+    "total_positive": 13
   },
   {
     "date": "2022-12-01",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-02",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-03",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-04",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-05",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-06",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-07",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-08",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-09",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-10",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-11",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-12",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-13",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-14",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-15",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-16",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-17",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-18",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-19",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-20",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-21",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-22",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-23",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-24",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-25",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-26",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-27",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-28",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-29",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-30",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""
   },
   {
     "date": "2022-12-31",
-    "average": 0,
+    "average": "",
     "total_negative": "",
     "total_neutral": "",
     "total_positive": ""

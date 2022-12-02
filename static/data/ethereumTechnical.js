@@ -6,7 +6,7 @@ const actualP = [];
 
 function drawGraph(){
     function getData(chart){
-        fetch("../static/data/DOGE-USD_Price_Prediction.json")
+        fetch("../static/data/ETH-USD_Price_Prediction.json")
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);
@@ -109,7 +109,7 @@ const dataSetSen = [];
 
 function getDataSentimental(chart){
 
-    fetch("../static/data/DOGE_sentimental.json")
+    fetch("../static/data/ETH_sentimental.json")
     .then(response => response.json())
     .then((json) => {
         //console.log(json.data.length);
@@ -163,7 +163,7 @@ function drawHistoricalSentimental (){
 
     function getData(chart){
 
-        fetch("../static/data/DOGE_sentimental.json")
+        fetch("../static/data/ETH_sentimental.json")
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);

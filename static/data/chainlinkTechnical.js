@@ -6,7 +6,7 @@ const actualP = [];
 
 function drawGraph(){
     function getData(chart){
-        fetch("../static/data/LINK-USD_Price_Prediction.json")
+        fetch("../static/data/CHAIN-USD_Price_Prediction.json")
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);
@@ -114,7 +114,7 @@ function getDataSentimental(chart){
     .then((json) => {
         //console.log(json.data.length);
         for (var i = 0;i < json.length; i++){
-            if (json[i].date == "2022-11-21") {
+            if (json[i].date == "2022-11-30") {
                 dataSetSen.push(json[i].total_negative);
                 dataSetSen.push(json[i].total_neutral);
                 dataSetSen.push(json[i].total_positive);
@@ -167,7 +167,7 @@ function drawHistoricalSentimental (){
         .then(response => response.json())
         .then((json) => {
             //console.log(json.data.length);
-            for (var i = 0;i < 28; i++){
+            for (var i = 0;i < json.length; i++){
                 labelsDate.push(json[i].date);
                 hisNeg.push(json[i].total_negative);
                 hisPos.push(json[i].total_neutral);

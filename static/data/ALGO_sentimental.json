@@ -1,283 +1,283 @@
 [
   {
     "date": "2022-10-07",
-    "average": 1.9926289926289928,
-    "total_negative": 0,
-    "total_neutral": 6,
-    "total_positive": 808
+    "average": 1.9846625766871169,
+    "total_negative": 1,
+    "total_neutral": 8,
+    "total_positive": 643
   },
   {
     "date": "2022-10-08",
-    "average": 1.005586592178771,
-    "total_negative": 11,
-    "total_neutral": 156,
-    "total_positive": 12
+    "average": 1.0072463768115942,
+    "total_negative": 52,
+    "total_neutral": 444,
+    "total_positive": 56
   },
   {
     "date": "2022-10-09",
-    "average": 1.0083102493074791,
+    "average": 1.0042105263157894,
     "total_negative": 0,
-    "total_neutral": 358,
-    "total_positive": 3
+    "total_neutral": 472,
+    "total_positive": 2
   },
   {
     "date": "2022-10-10",
-    "average": 0.943069306930693,
-    "total_negative": 120,
-    "total_neutral": 187,
-    "total_positive": 97
+    "average": 1.1884984025559104,
+    "total_negative": 128,
+    "total_neutral": 252,
+    "total_positive": 246
   },
   {
     "date": "2022-10-11",
-    "average": 0.2657342657342657,
-    "total_negative": 210,
-    "total_neutral": 76,
+    "average": 0.1731748726655348,
+    "total_negative": 487,
+    "total_neutral": 102,
     "total_positive": 0
   },
   {
     "date": "2022-10-12",
-    "average": 1.045,
-    "total_negative": 11,
-    "total_neutral": 360,
-    "total_positive": 29
+    "average": 1.0144694533762058,
+    "total_negative": 3,
+    "total_neutral": 607,
+    "total_positive": 12
   },
   {
     "date": "2022-10-13",
-    "average": 0.8123425692695214,
-    "total_negative": 375,
-    "total_neutral": 193,
-    "total_positive": 226
+    "average": 1.116370808678501,
+    "total_negative": 121,
+    "total_neutral": 204,
+    "total_positive": 181
   },
   {
     "date": "2022-10-14",
-    "average": 1.4428934010152283,
-    "total_negative": 75,
-    "total_neutral": 289,
-    "total_positive": 424
+    "average": 1.3669565217391304,
+    "total_negative": 74,
+    "total_neutral": 216,
+    "total_positive": 285
   },
   {
     "date": "2022-10-15",
-    "average": 0.6941176470588235,
-    "total_negative": 26,
-    "total_neutral": 59,
-    "total_positive": 0
+    "average": 0.6686656671664168,
+    "total_negative": 222,
+    "total_neutral": 442,
+    "total_positive": 2
   },
   {
     "date": "2022-10-16",
-    "average": 1.905109489051095,
-    "total_negative": 1,
-    "total_neutral": 24,
-    "total_positive": 249
+    "average": 1.847201210287444,
+    "total_negative": 3,
+    "total_neutral": 95,
+    "total_positive": 563
   },
   {
     "date": "2022-10-17",
-    "average": 0.1607142857142857,
-    "total_negative": 285,
-    "total_neutral": 48,
+    "average": 0.1598360655737705,
+    "total_negative": 208,
+    "total_neutral": 33,
     "total_positive": 3
   },
   {
     "date": "2022-10-18",
-    "average": 0.1446111869031378,
-    "total_negative": 643,
-    "total_neutral": 74,
-    "total_positive": 16
+    "average": 0.1833084947839046,
+    "total_negative": 556,
+    "total_neutral": 107,
+    "total_positive": 8
   },
   {
     "date": "2022-10-19",
-    "average": 0.1955168119551681,
-    "total_negative": 676,
-    "total_neutral": 97,
-    "total_positive": 30
+    "average": 0.173015873015873,
+    "total_negative": 547,
+    "total_neutral": 57,
+    "total_positive": 26
   },
   {
     "date": "2022-10-20",
-    "average": 1.0984455958549222,
+    "average": 1.0258175559380378,
     "total_negative": 0,
-    "total_neutral": 174,
-    "total_positive": 19
+    "total_neutral": 566,
+    "total_positive": 15
   },
   {
     "date": "2022-10-21",
-    "average": 0.027027027027027,
-    "total_negative": 73,
+    "average": 0.0750853242320819,
+    "total_negative": 564,
     "total_neutral": 0,
-    "total_positive": 1
+    "total_positive": 22
   },
   {
     "date": "2022-10-22",
-    "average": 0.0550847457627118,
-    "total_negative": 448,
-    "total_neutral": 22,
-    "total_positive": 2
+    "average": 0.2660818713450292,
+    "total_negative": 521,
+    "total_neutral": 144,
+    "total_positive": 19
   },
   {
     "date": "2022-10-23",
-    "average": 0.0466883821932681,
-    "total_negative": 883,
-    "total_neutral": 33,
-    "total_positive": 5
+    "average": 0.0591630591630591,
+    "total_negative": 660,
+    "total_neutral": 25,
+    "total_positive": 8
   },
   {
     "date": "2022-10-24",
-    "average": 0.1038506417736289,
-    "total_negative": 803,
-    "total_neutral": 19,
-    "total_positive": 35
+    "average": 0.1129518072289156,
+    "total_negative": 620,
+    "total_neutral": 13,
+    "total_positive": 31
   },
   {
     "date": "2022-10-25",
-    "average": 1.657550535077289,
-    "total_negative": 66,
-    "total_neutral": 156,
-    "total_positive": 619
+    "average": 1.5447530864197532,
+    "total_negative": 85,
+    "total_neutral": 125,
+    "total_positive": 438
   },
   {
     "date": "2022-10-26",
-    "average": 0.4730046948356807,
-    "total_negative": 634,
-    "total_neutral": 33,
-    "total_positive": 185
+    "average": 0.3960244648318042,
+    "total_negative": 509,
+    "total_neutral": 31,
+    "total_positive": 114
   },
   {
     "date": "2022-10-27",
-    "average": 1.937864077669903,
-    "total_negative": 16,
+    "average": 1.9056316590563165,
+    "total_negative": 31,
     "total_neutral": 0,
-    "total_positive": 499
+    "total_positive": 626
   },
   {
     "date": "2022-10-28",
-    "average": 1.9441964285714288,
-    "total_negative": 8,
-    "total_neutral": 9,
-    "total_positive": 431
+    "average": 1.946287519747236,
+    "total_negative": 6,
+    "total_neutral": 22,
+    "total_positive": 605
   },
   {
     "date": "2022-10-29",
-    "average": 1.3638709677419354,
-    "total_negative": 227,
-    "total_neutral": 39,
-    "total_positive": 509
+    "average": 1.0096,
+    "total_negative": 275,
+    "total_neutral": 69,
+    "total_positive": 281
   },
   {
     "date": "2022-10-30",
-    "average": 1.3439306358381502,
-    "total_negative": 0,
-    "total_neutral": 454,
-    "total_positive": 238
+    "average": 1.284297520661157,
+    "total_negative": 8,
+    "total_neutral": 417,
+    "total_positive": 180
   },
   {
     "date": "2022-10-31",
-    "average": 0.0964285714285714,
-    "total_negative": 771,
-    "total_neutral": 57,
-    "total_positive": 12
+    "average": 0.1296296296296296,
+    "total_negative": 470,
+    "total_neutral": 70,
+    "total_positive": 0
   },
   {
     "date": "2022-11-01",
-    "average": 1.7917888563049853,
-    "total_negative": 9,
-    "total_neutral": 53,
-    "total_positive": 279
+    "average": 1.6880269814502529,
+    "total_negative": 27,
+    "total_neutral": 131,
+    "total_positive": 435
   },
   {
     "date": "2022-11-02",
-    "average": 1.9741480611045827,
-    "total_negative": 3,
-    "total_neutral": 16,
-    "total_positive": 832
+    "average": 1.9322580645161287,
+    "total_negative": 2,
+    "total_neutral": 38,
+    "total_positive": 580
   },
   {
     "date": "2022-11-03",
-    "average": 0.9337837837837838,
-    "total_negative": 358,
-    "total_neutral": 73,
-    "total_positive": 309
+    "average": 0.5145797598627787,
+    "total_negative": 417,
+    "total_neutral": 32,
+    "total_positive": 134
   },
   {
     "date": "2022-11-04",
-    "average": 1.1004672897196262,
-    "total_negative": 0,
-    "total_neutral": 770,
-    "total_positive": 86
+    "average": 1.0663176265270506,
+    "total_negative": 1,
+    "total_neutral": 533,
+    "total_positive": 39
   },
   {
     "date": "2022-11-05",
-    "average": 1,
-    "total_negative": 7,
-    "total_neutral": 0,
-    "total_positive": 7
+    "average": 1.2967409948542024,
+    "total_negative": 202,
+    "total_neutral": 6,
+    "total_positive": 375
   },
   {
     "date": "2022-11-06",
-    "average": 0,
-    "total_negative": 1,
-    "total_neutral": 0,
-    "total_positive": 0
-  },
-  {
-    "date": "2022-11-07",
-    "average": 0.2962962962962963,
-    "total_negative": 20,
-    "total_neutral": 6,
+    "average": 0.4184782608695652,
+    "total_negative": 322,
+    "total_neutral": 229,
     "total_positive": 1
   },
   {
+    "date": "2022-11-07",
+    "average": 0.4019607843137255,
+    "total_negative": 185,
+    "total_neutral": 119,
+    "total_positive": 2
+  },
+  {
     "date": "2022-11-08",
-    "average": 1,
+    "average": 1.0023923444976075,
     "total_negative": 0,
-    "total_neutral": 4,
-    "total_positive": 0
+    "total_neutral": 417,
+    "total_positive": 1
   },
   {
     "date": "2022-11-09",
-    "average": 0.971153846153846,
-    "total_negative": 3,
-    "total_neutral": 101,
-    "total_positive": 0
+    "average": 0.9725158562367864,
+    "total_negative": 15,
+    "total_neutral": 456,
+    "total_positive": 2
   },
   {
     "date": "2022-11-10",
-    "average": 0.970414201183432,
-    "total_negative": 48,
-    "total_neutral": 78,
-    "total_positive": 43
+    "average": 1.1850117096018735,
+    "total_negative": 105,
+    "total_neutral": 138,
+    "total_positive": 184
   },
   {
     "date": "2022-11-11",
-    "average": 1.7052810902896085,
-    "total_negative": 78,
-    "total_neutral": 17,
-    "total_positive": 492
+    "average": 1.8489871086556169,
+    "total_negative": 36,
+    "total_neutral": 10,
+    "total_positive": 497
   },
   {
     "date": "2022-11-12",
-    "average": 1.9751243781094527,
+    "average": 1.9798657718120805,
     "total_negative": 0,
-    "total_neutral": 5,
-    "total_positive": 196
+    "total_neutral": 12,
+    "total_positive": 584
   },
   {
     "date": "2022-11-13",
-    "average": 1.4334170854271358,
-    "total_negative": 146,
-    "total_neutral": 159,
-    "total_positive": 491
+    "average": 1.4426229508196722,
+    "total_negative": 54,
+    "total_neutral": 164,
+    "total_positive": 270
   },
   {
     "date": "2022-11-14",
-    "average": 1.56390977443609,
-    "total_negative": 1,
-    "total_neutral": 114,
-    "total_positive": 151
+    "average": 1.7169590643274857,
+    "total_negative": 3,
+    "total_neutral": 236,
+    "total_positive": 616
   },
   {
     "date": "2022-11-15",
-    "average": 1.6240249609984398,
-    "total_negative": 3,
-    "total_neutral": 235,
-    "total_positive": 403
+    "average": 1.4693396226415094,
+    "total_negative": 10,
+    "total_neutral": 430,
+    "total_positive": 408
   },
   {
     "date": "2022-11-16",
@@ -288,101 +288,101 @@
   },
   {
     "date": "2022-11-17",
-    "average": 1.297082228116711,
-    "total_negative": 258,
-    "total_neutral": 14,
-    "total_positive": 482
+    "average": 1.2940360610263524,
+    "total_negative": 249,
+    "total_neutral": 11,
+    "total_positive": 460
   },
   {
     "date": "2022-11-18",
-    "average": 1.0104302477183833,
-    "total_negative": 229,
-    "total_neutral": 301,
-    "total_positive": 237
+    "average": 1.0418060200668895,
+    "total_negative": 191,
+    "total_neutral": 191,
+    "total_positive": 216
   },
   {
     "date": "2022-11-19",
-    "average": 0.1648216482164821,
-    "total_negative": 737,
-    "total_neutral": 18,
-    "total_positive": 58
+    "average": 0.1336696090794451,
+    "total_negative": 730,
+    "total_neutral": 20,
+    "total_positive": 43
   },
   {
     "date": "2022-11-20",
-    "average": 0.3051948051948052,
-    "total_negative": 121,
-    "total_neutral": 19,
-    "total_positive": 14
+    "average": 0.2367205542725173,
+    "total_negative": 732,
+    "total_neutral": 63,
+    "total_positive": 71
   },
   {
     "date": "2022-11-21",
-    "average": 0.0450121654501216,
-    "total_negative": 796,
-    "total_neutral": 15,
-    "total_positive": 11
+    "average": 0.0542635658914728,
+    "total_negative": 863,
+    "total_neutral": 31,
+    "total_positive": 9
   },
   {
     "date": "2022-11-22",
-    "average": 1.294041450777202,
-    "total_negative": 3,
-    "total_neutral": 539,
-    "total_positive": 230
+    "average": 1.3234597156398105,
+    "total_negative": 1,
+    "total_neutral": 569,
+    "total_positive": 274
   },
   {
     "date": "2022-11-23",
-    "average": 2,
-    "total_negative": 0,
-    "total_neutral": 0,
-    "total_positive": 1
+    "average": 1.5957943925233644,
+    "total_negative": 150,
+    "total_neutral": 46,
+    "total_positive": 660
   },
   {
     "date": "2022-11-24",
-    "average": 0.9933333333333332,
-    "total_negative": 20,
-    "total_neutral": 111,
-    "total_positive": 19
+    "average": 1.065710872162485,
+    "total_negative": 160,
+    "total_neutral": 461,
+    "total_positive": 215
   },
   {
     "date": "2022-11-25",
-    "average": 1.129737609329446,
-    "total_negative": 10,
-    "total_neutral": 577,
-    "total_positive": 99
+    "average": 1.1399521531100478,
+    "total_negative": 17,
+    "total_neutral": 684,
+    "total_positive": 134
   },
   {
     "date": "2022-11-26",
-    "average": 0.946078431372549,
-    "total_negative": 326,
-    "total_neutral": 208,
-    "total_positive": 282
+    "average": 1.22992700729927,
+    "total_negative": 85,
+    "total_neutral": 463,
+    "total_positive": 274
   },
   {
     "date": "2022-11-27",
-    "average": 0.6253369272237197,
-    "total_negative": 510,
+    "average": 0.3193069306930693,
+    "total_negative": 679,
     "total_neutral": 0,
-    "total_positive": 232
+    "total_positive": 129
   },
   {
     "date": "2022-11-28",
-    "average": 1.667883211678832,
-    "total_negative": 17,
-    "total_neutral": 57,
-    "total_positive": 200
+    "average": 1.6038882138517618,
+    "total_negative": 104,
+    "total_neutral": 118,
+    "total_positive": 601
   },
   {
     "date": "2022-11-29",
-    "average": 1.6521739130434785,
-    "total_negative": 0,
-    "total_neutral": 8,
-    "total_positive": 15
+    "average": 1.5538277511961722,
+    "total_negative": 18,
+    "total_neutral": 337,
+    "total_positive": 481
   },
   {
     "date": "2022-11-30",
-    "average": 0.4296296296296296,
-    "total_negative": 314,
-    "total_neutral": 220,
-    "total_positive": 6
+    "average": 0.3907514450867052,
+    "total_negative": 539,
+    "total_neutral": 314,
+    "total_positive": 12
   },
   {
     "date": "2022-12-01",
