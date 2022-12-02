@@ -7,8 +7,8 @@
 - Brandon Truong: brandon.truong@sjsu.edu
 
 ## Software Requirements
-Python3
-PIP
+- Python3
+- PIP
 
 ## Usage
 1. Initially, use *pip install -r requirements.txt* to install the necessary modules
