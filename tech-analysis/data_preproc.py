@@ -10,6 +10,33 @@ def create_df(ticker):
     if ticker == 'BTC-USD':
         df1 = pd.read_csv('additional_data_btc.csv')
         df2 = pd.DataFrame(yf.download(tickers='BTC-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'ETH-USD':
+        df1 = pd.read_csv('additional_data_eth.csv')
+        df2 = pd.DataFrame(yf.download(tickers='ETH-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'ALGO-USD':
+        df1 = pd.read_csv('additional_data_algo.csv')
+        df2 = pd.DataFrame(yf.download(tickers='ALGO-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'BCH-USD':
+        df1 = pd.read_csv('additional_data_bch.csv')
+        df2 = pd.DataFrame(yf.download(tickers='BCH-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'BNB-USD':
+        df1 = pd.read_csv('additional_data_bnb.csv')
+        df2 = pd.DataFrame(yf.download(tickers='BNB-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'LINK-USD':
+        df1 = pd.read_csv('additional_data_chain.csv')
+        df2 = pd.DataFrame(yf.download(tickers='LINK-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'DOGE-USD':
+        df1 = pd.read_csv('additional_data_doge.csv')
+        df2 = pd.DataFrame(yf.download(tickers='DOGE-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'LTC-USD':
+        df1 = pd.read_csv('additional_data_ltc.csv')
+        df2 = pd.DataFrame(yf.download(tickers='LTC-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'MATIC-USD':
+        df1 = pd.read_csv('additional_data_matic.csv')
+        df2 = pd.DataFrame(yf.download(tickers='MATIC-USD', start='2022-01-01', end='2022-08-23'))
+    if ticker == 'SHIB-USD':
+        df1 = pd.read_csv('additional_data_shib.csv')
+        df2 = pd.DataFrame(yf.download(tickers='SHIB-USD', start='2022-01-01', end='2022-08-23'))
     df1 = df1.iloc[0:235]
     df1.reset_index(drop=True, inplace=True)
     df2.reset_index(drop=True, inplace=True)
@@ -62,10 +89,3 @@ def create_nn_df(ticker):
     nn_df = pd.DataFrame()
     nn_df['Open'] = df['Open']
     return nn_df
-
-
-
-
-    
-
-    
