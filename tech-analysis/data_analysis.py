@@ -38,5 +38,3 @@ def classification_metrics(pred, val):
     print("Recall: " + str(rec))
     print("F1 Score: " + str(f))
 
-
-
